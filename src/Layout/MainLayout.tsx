@@ -43,17 +43,18 @@ export default function MainLayout(props: LayoutProps) {
             )}
           </Section>
         </Layout>
-        <Footer style={{backgroundColor:"#1a73e8",color:"white", padding: "4px 20px 17px 20px"}} >
-          <p>In case of issues/incidents or new requests over specific reports,
-          please log into AskNow for raising the needed ticket by clicking{" "}
-          <a style={{color:"white"}}  target="_blank" href="https://asknow.service-now.com/asknow?id=sc_cat_item&sys_id=4f79525adbcc8740958bf9a41d9619b8">
-            here
+        <Footer style={{backgroundColor:"#1a73e8",color:"white", padding: "0px 0px 0px 80px"}} >
+        <p>In case of issues / incidents or new requests over specific reports, please log into AskNow for raising the needed ticket by clicking  {" "}
+          <a style={{color:"white"}}  target="_blank" href="https://asknow.service-now.com/asknow?id=asknow_sc_cat_item&sys_id=bec6a503874e29dc97c8646d8bbb3597&sysparm_category=d866a94b87ca29dc97c8646d8bbb35a1">
+           
+            <img
+                src="https://asknow.service-now.com/aa893c6e8709ddd897c8646d8bbb3525.iix"
+                width="100px"
+                height="20"
+                
+              />
           </a>
-          . In case of any doubts when generating the tickets, please refer to
-          the following{" "}
-          <a style={{color:"white"}} target="_blank" href="https://teletechinc.sharepoint.com/:w:/s/enterpriseintelligence/EUFXiPqWlbhNgKNiPwjOO9kB6rP7UTrF-2pRb7KpiW8kDw?e=FYKMPh&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzA1MDEwMDQyMiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D">
-            Work Instruction
-          </a>
+          
           </p>
         </Footer>
       </Page>

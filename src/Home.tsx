@@ -18,7 +18,7 @@ export default function Home() {
     ];
 
     return (
-      <Carousel>
+      <Carousel  indicators = {false}>
         {items.map((item, i) => (
           <div style={{ textAlign: "center" }}>{item.image}</div>
         ))}
