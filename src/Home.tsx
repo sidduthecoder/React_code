@@ -874,7 +874,7 @@ const Index: React.FC = () => {
                       rel="noopener noreferrer"
                       style={{
                         fontSize: "13px",
-                        color: "#3B82F6",
+                        color: "#3b82F6",
                         textDecoration: "none",
                       }}
                     >
