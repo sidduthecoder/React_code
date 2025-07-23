@@ -14,6 +14,8 @@ const Index: React.FC = () => {
   const [expandedFAQ, setExpandedFAQ] = useState<string | null>(null);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
+  // Fetch username from Looker user attribute
+
   // Simple SVG Icons
   const ChevronDown = ({ size = 20 }: { size?: number }) => (
     <svg
@@ -817,10 +819,10 @@ const Index: React.FC = () => {
                       margin: "0 0 4px 0",
                     }}
                   >
-                    Dashboard Enhancements:
+                    For Dashboard Enhancements:
                   </p>
                   <a
-                    href="mailto:development@company.com"
+                    href="mailto:LookerDevelopers@teletechinc.onmicrosoft.com?subject=Support%20Request&body=Hi%20Team%2C%0A%0AI%20need%20help%20with..."
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -859,7 +861,7 @@ const Index: React.FC = () => {
                       margin: "0 0 4px 0",
                     }}
                   >
-                    For access issues:
+                    For Access Issues:
                   </p>
                   <div
                     style={{
@@ -902,7 +904,7 @@ const Index: React.FC = () => {
                 ></div>
                 <div>
                   <a
-                    href="#"
+                    href="https://ttec.atlan.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
