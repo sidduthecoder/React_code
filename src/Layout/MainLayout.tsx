@@ -8,11 +8,11 @@ import {
   Footer,
   LayoutProps,
 } from "@looker/components";
-import Header from "../Components/Header/HeaderComponent";
-import Tabs from "../Components/Tab/TabComponent";
-import { menuList } from "./MenuList";
+// import Header from "../Components/Header/HeaderComponent";
+// import Tabs from "../Components/Tab/TabComponent";
+// import { menuList } from "./MenuList";
 import Home from "../Home";
-import underConstuction from "../Images/under_construction.png";
+// import underConstuction from "../Images/under_construction.png";
 
 export default function MainLayout(props: LayoutProps) {
   const [currentMenu, setCurrentMenu] = useState({ tabs: [], item: "" });
