@@ -151,14 +151,14 @@ const Index = () => {
     {
       id: "operations",
       title: "Operations",
-      description: "Bill-to-Pay, Switch Agent Reports",
+      description: "Bill-to-Pay, Switch Agent Reports, CPI, Scorecard",
       icon: <BarChart size={24} />,
       color: "#3B82F6",
     },
     {
       id: "people",
       title: "People",
-      description: "Span of Control, Talent Management",
+      description: "Span of Control, Talent Management, Attrition",
       icon: <Users size={24} />,
       color: "#3B82F6",
     },
@@ -183,14 +183,7 @@ const Index = () => {
       icon: <TrendingUp size={24} />,
       color: "#3B82F6",
     },
-    {
-      id: "justmore",
-      title: "JustMore",
-      description:
-        "Finance, Ratio & Headcount, Span of Control, CPI, Hire To Production, Production Attrition",
-      icon: <FileText size={24} />,
-      color: "#3B82F6",
-    },
+
     {
       id: "WFM",
       title: "WFM",
@@ -222,6 +215,8 @@ const Index = () => {
           name: "Switch Agent Reports",
           url: "https://askted.ttec.com/folders/340",
         },
+        { name: "CPI - Justmore", url: "https://askted.ttec.com/folders/7633" },
+        { name: "Scorecard", url: "https://askted.ttec.com/folders/8134" },
       ],
       people: [
         { name: "Span of Control", url: "https://askted.ttec.com/folders/53" },
@@ -229,12 +224,32 @@ const Index = () => {
           name: "Talent Management",
           url: "https://askted.ttec.com/folders/8830",
         },
+        {
+          name: "Production Attrition - JustMore",
+          url: "https://askted.ttec.com/folders/7636",
+        },
+        {
+          name: "Span of Control - JustMore",
+          url: "https://askted.ttec.com/folders/7638",
+        },
+        {
+          name: "Ratio & Headcount - JustMore",
+          url: "https://askted.ttec.com/folders/7637",
+        },
+        {
+          name: "Hire to Production Attrition - Justmore",
+          url: "https://askted.ttec.com/folders/7635",
+        },
       ],
       finance: [
         { name: "Accounting", url: "https://askted.ttec.com/folders/155" },
         { name: "Digital", url: "https://askted.ttec.com/folders/157" },
         { name: "Engage", url: "https://askted.ttec.com/folders/158" },
         { name: "Procurement", url: "https://askted.ttec.com/folders/280" },
+        {
+          name: "Finance - Justmore",
+          url: "https://askted.ttec.com/folders/7634",
+        },
       ],
       technology: [
         { name: "CSO", url: "https://askted.ttec.com/folders/9769" },
@@ -262,26 +277,7 @@ const Index = () => {
           url: "https://askted.ttec.com/dashboards/pZ6I0UMyLcyBbbxVItrGrX",
         },
       ],
-      justmore: [
-        { name: "Finance", url: "https://askted.ttec.com/folders/7634" },
-        {
-          name: "Hire To Production",
-          url: "https://askted.ttec.com/folders/7635",
-        },
-        {
-          name: "Production Attrition",
-          url: "https://askted.ttec.com/folders/7636",
-        },
-        { name: "CPI", url: "https://askted.ttec.com/folders/7633" },
-        {
-          name: "Span of Control",
-          url: "https://askted.ttec.com/folders/7638",
-        },
-        {
-          name: "Ratio & Headcount",
-          url: "https://askted.ttec.com/folders/7637",
-        },
-      ],
+
       WFM: [
         {
           name: "Staffing Outlook",
