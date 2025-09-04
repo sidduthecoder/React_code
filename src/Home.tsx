@@ -213,32 +213,41 @@ const Index = () => {
         },
         {
           name: "Switch Agent Reports",
-          url: "https://askted.ttec.com/folders/340",
+          url: "https://askted.ttec.com/dashboards/ttecmainagentdashboard?",
         },
-        { name: "CPI - Justmore", url: "https://askted.ttec.com/folders/7633" },
-        { name: "Scorecard", url: "https://askted.ttec.com/folders/8134" },
+        {
+          name: "CPI - Justmore",
+          url: "https://askted.ttec.com/dashboards/hPkWUyxx3bVcpSAqJMrED5?",
+        },
+        {
+          name: "Scorecard",
+          url: "https://askted.ttec.com/dashboards/YWW9mhXNZkR25nBTBwSsS9?",
+        },
       ],
       people: [
-        { name: "Span of Control", url: "https://askted.ttec.com/folders/53" },
+        {
+          name: "Span of Control",
+          url: "https://askted.ttec.com/dashboards/O9vsVI5CQsLkzzN2IWEItM?",
+        },
         {
           name: "Talent Management",
-          url: "https://askted.ttec.com/folders/8830",
+          url: "https://askted.ttec.com/dashboards/qeE284Tph0E8g7nOLXORNM?",
         },
         {
           name: "Production Attrition - JustMore",
-          url: "https://askted.ttec.com/folders/7636",
+          url: "https://askted.ttec.com/dashboards/kgeZh3LEF5LCBIHox5ZNXL?",
         },
         {
           name: "Span of Control - JustMore",
-          url: "https://askted.ttec.com/folders/7638",
+          url: "https://askted.ttec.com/dashboards/MPjwsiHlFthmG4O0KzBvaM?",
         },
         {
           name: "Ratio & Headcount - JustMore",
-          url: "https://askted.ttec.com/folders/7637",
+          url: "https://askted.ttec.com/dashboards/r6FTJoE9ELPynbXM4hEHHj?",
         },
         {
           name: "Hire to Production Attrition - Justmore",
-          url: "https://askted.ttec.com/folders/7635",
+          url: "https://askted.ttec.com/dashboards/7528TAOYYtQn1V0ClgSwro?",
         },
       ],
       finance: [
@@ -248,12 +257,14 @@ const Index = () => {
         { name: "Procurement", url: "https://askted.ttec.com/folders/280" },
         {
           name: "Finance - Justmore",
-          url: "https://askted.ttec.com/folders/7634",
+          url: "https://askted.ttec.com/dashboards/4WkvpNKns60ZYDG0jGToiO?",
         },
       ],
       technology: [
-        { name: "CSO", url: "https://askted.ttec.com/folders/9769" },
-        { name: "USAA", url: "https://lookerdataiq.ttec.com/folders/18" },
+        {
+          name: "CSO",
+          url: "https://askted.ttec.com/dashboards/uhZzjEA5zAPVf2EwtJwuV9?",
+        },
         {
           name: "Big Query Monitoring",
           url: "https://askted.ttec.com/dashboards/U3TaRKsoenEP2cu8L6VlLY?",
@@ -297,7 +308,7 @@ const Index = () => {
         },
         {
           name: "AWH - WFM",
-          url: "https://askted.ttec.com/folders/7390",
+          url: "https://askted.ttec.com/dashboards/tt3cDKWJQX4eM2ULKE4CpH?",
         },
       ],
       MyItems: [
