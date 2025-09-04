@@ -251,10 +251,14 @@ const Index = () => {
         },
       ],
       finance: [
-        { name: "Accounting", url: "https://askted.ttec.com/folders/155" },
-        { name: "Digital", url: "https://askted.ttec.com/folders/157" },
-        { name: "Engage", url: "https://askted.ttec.com/folders/158" },
-        { name: "Procurement", url: "https://askted.ttec.com/folders/280" },
+        {
+          name: "Accounts Payable",
+          url: "https://askted.ttec.com/dashboards/nmzEdrnxlWWAXfMSkKiC0f?",
+        },
+        {
+          name: "Accounts Receivable",
+          url: "https://askted.ttec.com/dashboards/kFFlRHW74WKjsw4fTo8zdb?",
+        },
         {
           name: "Finance - Justmore",
           url: "https://askted.ttec.com/dashboards/4WkvpNKns60ZYDG0jGToiO?",
