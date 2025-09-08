@@ -165,14 +165,14 @@ const Index = () => {
     {
       id: "finance",
       title: "Finance",
-      description: "Accounting, Digital, Engage, Procurement",
+      description: "Account Payable, Account Receivable, Justmore - Finance",
       icon: <DollarSign size={24} />,
       color: "#3B82F6",
     },
     {
       id: "technology",
       title: "Technology",
-      description: "CSO, USAA, BQ Monitoring",
+      description: "CSO, BQ Monitoring",
       icon: <Monitor size={24} />,
       color: "#3B82F6",
     },
