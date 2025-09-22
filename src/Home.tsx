@@ -208,6 +208,10 @@ const Index = () => {
     const dropdownData = {
       operations: [
         {
+          name: "Account Ownership (TM)",
+          url: "https://askted.ttec.com/dashboards/6wM42D6sK5gcNqBOZUKJuz?",
+        },
+        {
           name: "Bill to Pay",
           url: "https://askted.ttec.com/dashboards/x9a94OaUppMGyef4f9ZJFw",
         },
@@ -220,8 +224,8 @@ const Index = () => {
           url: "https://askted.ttec.com/dashboards/hPkWUyxx3bVcpSAqJMrED5?",
         },
         {
-          name: "Scorecard",
-          url: "https://askted.ttec.com/dashboards/YWW9mhXNZkR25nBTBwSsS9?",
+          name: "Scorecard (Restricted)",
+          url: "https://askted.ttec.com/dashboards/hIrt0kRSFSHjkUnXXmrQMv?",
         },
         {
           name: "TTEC Assure",
@@ -252,15 +256,19 @@ const Index = () => {
       ],
       finance: [
         {
-          name: "Accounts Payable",
+          name: "Accounts Payable (Restricted)",
           url: "https://askted.ttec.com/dashboards/nmzEdrnxlWWAXfMSkKiC0f?",
         },
         {
-          name: "Accounts Receivable",
+          name: "Accounts Receivable (Restricted)",
           url: "https://askted.ttec.com/dashboards/kFFlRHW74WKjsw4fTo8zdb?",
         },
         {
-          name: "Finance - Justmore",
+          name: "GL Journal Details (Restricted)",
+          url: "https://askted.ttec.com/dashboards/3kvLlkeuhIpcNkaKxamA5T?",
+        },
+        {
+          name: "Finance - Justmore (Restricted)",
           url: "https://askted.ttec.com/dashboards/4WkvpNKns60ZYDG0jGToiO?",
         },
       ],
@@ -272,19 +280,19 @@ const Index = () => {
       ],
       sales: [
         {
-          name: "Snapshot Comparison",
+          name: "Snapshot Comparison (Restricted)",
           url: "https://askted.ttec.com/dashboards/YpFcBEkFf4E3XB7fEprp5D",
         },
         {
-          name: "NNR Pipeline",
+          name: "NNR Pipeline (Restricted)",
           url: "https://askted.ttec.com/dashboards/twzEqZXHMIG0waWndXGQ9S?",
         },
         {
-          name: "ACV Pipeline",
+          name: "ACV Pipeline (Restricted)",
           url: "https://askted.ttec.com/dashboards/PJWcOVPIXT7l0KfIU9iWvI",
         },
         {
-          name: "Sales Executive Pipeline Dashboard",
+          name: "Sales Executive Pipeline Dashboard (Restricted)",
           url: "https://askted.ttec.com/dashboards/pZ6I0UMyLcyBbbxVItrGrX",
         },
       ],
