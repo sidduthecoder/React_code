@@ -172,7 +172,7 @@ const Index = () => {
     {
       id: "technology",
       title: "Technology",
-      description: "CSO, BQ Monitoring",
+      description: "CSO",
       icon: <Monitor size={24} />,
       color: "#3B82F6",
     },
@@ -223,12 +223,12 @@ const Index = () => {
           name: "Scorecard",
           url: "https://askted.ttec.com/dashboards/YWW9mhXNZkR25nBTBwSsS9?",
         },
+        {
+          name: "TTEC Assure",
+          url: "https://askted.ttec.com/dashboards/OVYk7ACO5rvRMj2x3c6LL",
+        },
       ],
       people: [
-        {
-          name: "Span of Control",
-          url: "https://askted.ttec.com/dashboards/O9vsVI5CQsLkzzN2IWEItM?",
-        },
         {
           name: "Talent Management",
           url: "https://askted.ttec.com/dashboards/qeE284Tph0E8g7nOLXORNM?",
@@ -238,16 +238,16 @@ const Index = () => {
           url: "https://askted.ttec.com/dashboards/kgeZh3LEF5LCBIHox5ZNXL?",
         },
         {
+          name: "Hire to Production Attrition - Justmore",
+          url: "https://askted.ttec.com/dashboards/7528TAOYYtQn1V0ClgSwro?",
+        },
+        {
           name: "Span of Control - JustMore",
           url: "https://askted.ttec.com/dashboards/MPjwsiHlFthmG4O0KzBvaM?",
         },
         {
           name: "Ratio & Headcount - JustMore",
           url: "https://askted.ttec.com/dashboards/r6FTJoE9ELPynbXM4hEHHj?",
-        },
-        {
-          name: "Hire to Production Attrition - Justmore",
-          url: "https://askted.ttec.com/dashboards/7528TAOYYtQn1V0ClgSwro?",
         },
       ],
       finance: [
@@ -268,10 +268,6 @@ const Index = () => {
         {
           name: "CSO",
           url: "https://askted.ttec.com/dashboards/uhZzjEA5zAPVf2EwtJwuV9?",
-        },
-        {
-          name: "Big Query Monitoring",
-          url: "https://askted.ttec.com/dashboards/U3TaRKsoenEP2cu8L6VlLY?",
         },
       ],
       sales: [
@@ -782,7 +778,7 @@ const Index = () => {
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             <a
-              href="https://ttec-pmo.atlassian.net/wiki/spaces/DWH/pages/1433043543/Askted+Looker+Training+Videos"
+              href="https://www.cloudskillsboost.google/paths/28"
               target="_blank"
               rel="noopener noreferrer"
               className="help-link"
@@ -792,7 +788,7 @@ const Index = () => {
               </div>
               <div>
                 <div style={{ fontSize: "14px", fontWeight: "600" }}>
-                  Training Videos
+                  Google Looker Training
                 </div>
                 <div style={{ fontSize: "12px", color: "#64748B" }}>
                   Learn how to use Looker
@@ -838,8 +834,8 @@ const Index = () => {
                   fontWeight: "500",
                 }}
               >
-                Weekly maintenance starts Sundays at 1:00 AM UTC and may last ~2
-                hours
+                Weekly maintenance starts Sundays at 1:00 AM UTC (Saturdays 7:00
+                PM MT) and may last ~2 hours
               </div>
             </div>
           </div>
