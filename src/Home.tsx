@@ -151,21 +151,24 @@ const Index = () => {
     {
       id: "operations",
       title: "Operations",
-      description: "Bill-to-Pay, Switch Agent Reports, CPI, Scorecard",
+      description:
+        "Account Ownership, Bill-to-Pay, Switch Agent Reports, CPI, Scorecard",
       icon: <BarChart size={24} />,
       color: "#3B82F6",
     },
     {
       id: "people",
       title: "People",
-      description: "Span of Control, Talent Management, Attrition",
+      description:
+        "Attrition, Ratio & Headcount, Talent Management, Span of Control ",
       icon: <Users size={24} />,
       color: "#3B82F6",
     },
     {
       id: "finance",
       title: "Finance",
-      description: "Account Payable, Account Receivable, Justmore - Finance",
+      description:
+        "Account Payable, Account Receivable, Finance (Justmore), GL Journal Details",
       icon: <DollarSign size={24} />,
       color: "#3B82F6",
     },
@@ -187,7 +190,8 @@ const Index = () => {
     {
       id: "WFM",
       title: "WFM",
-      description: "Work Force Management",
+      description:
+        "Absenteeism Report, Occupancy Summary, Operational Top Deck, Staffing Outlook",
       icon: <FileText size={24} />,
       color: "#3B82F6",
     },
@@ -216,42 +220,47 @@ const Index = () => {
           url: "https://askted.ttec.com/dashboards/x9a94OaUppMGyef4f9ZJFw",
         },
         {
-          name: "Switch Agent Reports",
-          url: "https://askted.ttec.com/dashboards/ttecmainagentdashboard?",
-        },
-        {
           name: "CPI - Justmore",
           url: "https://askted.ttec.com/dashboards/hPkWUyxx3bVcpSAqJMrED5?",
+        },
+        {
+          name: "KVS",
+          url: "https://askted.ttec.com/dashboards/oNbAPz6SizZm17sX3l5aDe?",
         },
         {
           name: "Scorecard (Restricted)",
           url: "https://askted.ttec.com/dashboards/hIrt0kRSFSHjkUnXXmrQMv?",
         },
         {
+          name: "Switch Agent Reports",
+          url: "https://askted.ttec.com/dashboards/ttecmainagentdashboard?",
+        },
+        {
           name: "TTEC Assure",
           url: "https://askted.ttec.com/dashboards/OVYk7ACO5rvRMj2x3c6LL",
         },
       ],
+
       people: [
         {
-          name: "Talent Management",
-          url: "https://askted.ttec.com/dashboards/qeE284Tph0E8g7nOLXORNM?",
+          name: "Hire to Production Attrition - Justmore",
+          url: "https://askted.ttec.com/dashboards/7528TAOYYtQn1V0ClgSwro?",
         },
         {
           name: "Production Attrition - JustMore",
           url: "https://askted.ttec.com/dashboards/kgeZh3LEF5LCBIHox5ZNXL?",
         },
         {
-          name: "Hire to Production Attrition - Justmore",
-          url: "https://askted.ttec.com/dashboards/7528TAOYYtQn1V0ClgSwro?",
+          name: "Ratio & Headcount - JustMore",
+          url: "https://askted.ttec.com/dashboards/r6FTJoE9ELPynbXM4hEHHj?",
         },
         {
           name: "Span of Control - JustMore",
           url: "https://askted.ttec.com/dashboards/MPjwsiHlFthmG4O0KzBvaM?",
         },
         {
-          name: "Ratio & Headcount - JustMore",
-          url: "https://askted.ttec.com/dashboards/r6FTJoE9ELPynbXM4hEHHj?",
+          name: "Talent Management",
+          url: "https://askted.ttec.com/dashboards/qeE284Tph0E8g7nOLXORNM?",
         },
       ],
       finance: [
@@ -264,14 +273,15 @@ const Index = () => {
           url: "https://askted.ttec.com/dashboards/kFFlRHW74WKjsw4fTo8zdb?",
         },
         {
-          name: "GL Journal Details (Restricted)",
-          url: "https://askted.ttec.com/dashboards/3kvLlkeuhIpcNkaKxamA5T?",
-        },
-        {
           name: "Finance - Justmore (Restricted)",
           url: "https://askted.ttec.com/dashboards/4WkvpNKns60ZYDG0jGToiO?",
         },
+        {
+          name: "GL Journal Details (Restricted)",
+          url: "https://askted.ttec.com/dashboards/3kvLlkeuhIpcNkaKxamA5T?",
+        },
       ],
+
       technology: [
         {
           name: "CSO",
@@ -280,36 +290,23 @@ const Index = () => {
       ],
       sales: [
         {
-          name: "Snapshot Comparison (Restricted)",
-          url: "https://askted.ttec.com/dashboards/YpFcBEkFf4E3XB7fEprp5D",
+          name: "ACV Pipeline (Restricted)",
+          url: "https://askted.ttec.com/dashboards/PJWcOVPIXT7l0KfIU9iWvI",
         },
         {
           name: "NNR Pipeline (Restricted)",
           url: "https://askted.ttec.com/dashboards/twzEqZXHMIG0waWndXGQ9S?",
         },
         {
-          name: "ACV Pipeline (Restricted)",
-          url: "https://askted.ttec.com/dashboards/PJWcOVPIXT7l0KfIU9iWvI",
-        },
-        {
           name: "Sales Executive Pipeline Dashboard (Restricted)",
           url: "https://askted.ttec.com/dashboards/pZ6I0UMyLcyBbbxVItrGrX",
         },
+        {
+          name: "Snapshot Comparison (Restricted)",
+          url: "https://askted.ttec.com/dashboards/YpFcBEkFf4E3XB7fEprp5D",
+        },
       ],
-
       WFM: [
-        {
-          name: "Staffing Outlook",
-          url: "https://askted.ttec.com/dashboards/QoPFWGZSiQSA4cHA3FUQyS?",
-        },
-        {
-          name: "Operational Top Deck",
-          url: "https://askted.ttec.com/dashboards/1HPc0kDIj00CyouupayeSW?",
-        },
-        {
-          name: "Occupancy Summary",
-          url: "https://askted.ttec.com/dashboards/vj7wsduTcZSq2pVgiRb2GF?",
-        },
         {
           name: "Absenteeism Report",
           url: "https://askted.ttec.com/dashboards/Ig2jnIi4kuq4VBZvZJZkmF?",
@@ -318,15 +315,28 @@ const Index = () => {
           name: "AWH - WFM",
           url: "https://askted.ttec.com/dashboards/tt3cDKWJQX4eM2ULKE4CpH?",
         },
-      ],
-      MyItems: [
         {
-          name: "Recently Viewed",
-          url: "https://askted.ttec.com/browse/recent",
+          name: "Occupancy Summary",
+          url: "https://askted.ttec.com/dashboards/vj7wsduTcZSq2pVgiRb2GF?",
         },
+        {
+          name: "Operational Top Deck",
+          url: "https://askted.ttec.com/dashboards/1HPc0kDIj00CyouupayeSW?",
+        },
+        {
+          name: "Staffing Outlook",
+          url: "https://askted.ttec.com/dashboards/QoPFWGZSiQSA4cHA3FUQyS?",
+        },
+      ],
+
+      MyItems: [
         {
           name: "My Favorites",
           url: "https://askted.ttec.com/browse/favorites",
+        },
+        {
+          name: "Recently Viewed",
+          url: "https://askted.ttec.com/browse/recent",
         },
       ],
     };
