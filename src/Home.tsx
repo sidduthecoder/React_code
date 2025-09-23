@@ -27,7 +27,6 @@ const RestrictedBadge = () => (
     >
       <path d="M12 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm6-7h-1V7a5 5 0 0 0-10 0v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2ZM9 7a3 3 0 0 1 6 0v3H9V7Zm9 13H6v-8h12v8Z" />
     </svg>
-    RESTRICTED
   </span>
 );
 
@@ -181,8 +180,7 @@ const Index = () => {
     {
       id: "operations",
       title: "Operations",
-      description:
-        "Account Ownership, Bill-to-Pay, Switch Agent Reports, CPI, Scorecard",
+      description: "Bill-to-Pay, Switch Agent Reports, CPI, Scorecard",
       icon: <BarChart size={24} />,
       color: "#3B82F6",
     },
@@ -241,10 +239,6 @@ const Index = () => {
   const getDropdownContent = (categoryId) => {
     const dropdownData = {
       operations: [
-        {
-          name: "Account Ownership (TM)",
-          url: "https://askted.ttec.com/dashboards/6wM42D6sK5gcNqBOZUKJuz?",
-        },
         {
           name: "Bill to Pay",
           url: "https://askted.ttec.com/dashboards/x9a94OaUppMGyef4f9ZJFw",
@@ -338,7 +332,11 @@ const Index = () => {
 
       technology: [
         {
-          name: "CSO",
+          name: (
+            <>
+              CSO <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/uhZzjEA5zAPVf2EwtJwuV9?",
         },
       ],
@@ -517,6 +515,7 @@ const Index = () => {
         .dashboard-icon { background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; }
         .training-icon { background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; }
         .training-icon-empower { background: linear-gradient(135deg, #09b5a7ff, #0cc18dff); color: white; }
+        .training-icon-ao { background: linear-gradient(135deg, #0a78deff, #1178bdff); color: white; }
         .announcement-item {
           display: flex; align-items: flex-start; gap: 12px;
           padding: 16px; background: linear-gradient(135deg, #fef3c7, #fde68a); border-radius: 12px;
@@ -852,6 +851,7 @@ const Index = () => {
             </a>
           </div>
         </div>
+
         {/* Resources Card */}
         <div className="help-card">
           <div className="section-title">
@@ -868,6 +868,24 @@ const Index = () => {
             >
               Resources
             </h3>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+            <a
+              href="https://askted.ttec.com/dashboards/6wM42D6sK5gcNqBOZUKJuz?"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="help-link"
+            >
+              <div className="help-icon training-icon-ao">
+                <FileText size={16} />
+              </div>
+              <div>
+                <div style={{ fontSize: "14px", fontWeight: "600" }}>
+                  Account Ownership
+                </div>
+                <div style={{ fontSize: "12px", color: "#64748B" }}></div>
+              </div>
+            </a>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             <a
