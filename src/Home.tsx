@@ -1,6 +1,36 @@
 import React, { useState } from "react";
 
 // --- Icon Definitions (as in your styling) ---
+const RestrictedBadge = () => (
+  <span
+    style={{
+      display: "inline-flex",
+      alignItems: "center",
+      gap: "6px",
+      background: "linear-gradient(90deg, #4589e3ff, #6391e8ff)",
+      color: "white",
+      fontSize: "12px",
+      fontWeight: "600",
+      padding: "4px 12px",
+      borderRadius: "999px",
+      textTransform: "uppercase",
+      marginLeft: "8px", // <-- adds space from "Scorecard"
+    }}
+  >
+    {/* Closed Lock Icon */}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="14"
+      height="14"
+      fill="white"
+      viewBox="0 0 24 24"
+    >
+      <path d="M12 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm6-7h-1V7a5 5 0 0 0-10 0v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2ZM9 7a3 3 0 0 1 6 0v3H9V7Zm9 13H6v-8h12v8Z" />
+    </svg>
+    RESTRICTED
+  </span>
+);
+
 const BarChart = ({ size = 24 }) => (
   <svg
     width={size}
@@ -228,7 +258,11 @@ const Index = () => {
           url: "https://askted.ttec.com/dashboards/oNbAPz6SizZm17sX3l5aDe?",
         },
         {
-          name: "Scorecard ( Restricted 🔒)",
+          name: (
+            <>
+              Scorecard <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/hIrt0kRSFSHjkUnXXmrQMv?",
         },
         {
@@ -265,19 +299,39 @@ const Index = () => {
       ],
       finance: [
         {
-          name: "Accounts Payable (Restricted 🔒)",
+          name: (
+            <>
+              Accounts Payable
+              <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/nmzEdrnxlWWAXfMSkKiC0f?",
         },
         {
-          name: "Accounts Receivable (Restricted 🔒)",
+          name: (
+            <>
+              Accounts Receivable
+              <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/kFFlRHW74WKjsw4fTo8zdb?",
         },
         {
-          name: "Finance - Justmore (Restricted 🔒)",
+          name: (
+            <>
+              Finance - Justmore
+              <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/4WkvpNKns60ZYDG0jGToiO?",
         },
         {
-          name: "GL Journal Details (Restricted 🔒)",
+          name: (
+            <>
+              GL Journal Details
+              <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/3kvLlkeuhIpcNkaKxamA5T?",
         },
       ],
@@ -290,19 +344,39 @@ const Index = () => {
       ],
       sales: [
         {
-          name: "ACV Pipeline (Restricted 🔒)",
+          name: (
+            <>
+              ACV Pipeline
+              <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/PJWcOVPIXT7l0KfIU9iWvI",
         },
         {
-          name: "NNR Pipeline (Restricted 🔒)",
+          name: (
+            <>
+              NNR Pipeline
+              <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/twzEqZXHMIG0waWndXGQ9S?",
         },
         {
-          name: "Sales Executive Pipeline (Restricted 🔒)",
+          name: (
+            <>
+              Sales Executive Pipeline
+              <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/pZ6I0UMyLcyBbbxVItrGrX",
         },
         {
-          name: "Snapshot Comparison (Restricted 🔒)",
+          name: (
+            <>
+              Snapshot Comparison
+              <RestrictedBadge />
+            </>
+          ),
           url: "https://askted.ttec.com/dashboards/YpFcBEkFf4E3XB7fEprp5D",
         },
       ],
