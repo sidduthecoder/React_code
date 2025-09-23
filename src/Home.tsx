@@ -271,7 +271,7 @@ const Index = () => {
         },
         {
           name: "TTEC Assure",
-          url: "https://askted.ttec.com/dashboards/OVYk7ACO5rvRMj2x3c6LL",
+          url: "https://askted.ttec.com/dashboards/OVYk7ACO5rvRMj2x3c6LLp",
         },
       ],
 
