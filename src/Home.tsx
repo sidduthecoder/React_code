@@ -228,7 +228,7 @@ const Index = () => {
           url: "https://askted.ttec.com/dashboards/oNbAPz6SizZm17sX3l5aDe?",
         },
         {
-          name: "Scorecard (Restricted)",
+          name: "Scorecard ( Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/hIrt0kRSFSHjkUnXXmrQMv?",
         },
         {
@@ -265,19 +265,19 @@ const Index = () => {
       ],
       finance: [
         {
-          name: "Accounts Payable (Restricted)",
+          name: "Accounts Payable (Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/nmzEdrnxlWWAXfMSkKiC0f?",
         },
         {
-          name: "Accounts Receivable (Restricted)",
+          name: "Accounts Receivable (Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/kFFlRHW74WKjsw4fTo8zdb?",
         },
         {
-          name: "Finance - Justmore (Restricted)",
+          name: "Finance - Justmore (Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/4WkvpNKns60ZYDG0jGToiO?",
         },
         {
-          name: "GL Journal Details (Restricted)",
+          name: "GL Journal Details (Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/3kvLlkeuhIpcNkaKxamA5T?",
         },
       ],
@@ -290,19 +290,19 @@ const Index = () => {
       ],
       sales: [
         {
-          name: "ACV Pipeline (Restricted)",
+          name: "ACV Pipeline (Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/PJWcOVPIXT7l0KfIU9iWvI",
         },
         {
-          name: "NNR Pipeline (Restricted)",
+          name: "NNR Pipeline (Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/twzEqZXHMIG0waWndXGQ9S?",
         },
         {
-          name: "Sales Executive Pipeline Dashboard (Restricted)",
+          name: "Sales Executive Pipeline (Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/pZ6I0UMyLcyBbbxVItrGrX",
         },
         {
-          name: "Snapshot Comparison (Restricted)",
+          name: "Snapshot Comparison (Restricted 🔒)",
           url: "https://askted.ttec.com/dashboards/YpFcBEkFf4E3XB7fEprp5D",
         },
       ],
@@ -442,6 +442,7 @@ const Index = () => {
         .broken-icon { background: linear-gradient(135deg, #f59e0b, #d97706); color: white; }
         .dashboard-icon { background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; }
         .training-icon { background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; }
+        .training-icon-empower { background: linear-gradient(135deg, #09b5a7ff, #0cc18dff); color: white; }
         .announcement-item {
           display: flex; align-items: flex-start; gap: 12px;
           padding: 16px; background: linear-gradient(135deg, #fef3c7, #fde68a); border-radius: 12px;
@@ -796,7 +797,25 @@ const Index = () => {
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             <a
-              href="https://www.cloudskillsboost.google/paths/28"
+              href="https://asknow.service-now.com/asknow?id=asknow_sc_cat_item&sys_id=4fbc01e51b67bf403c2e86e9cd4bcba6&sysparm_category=0318cbd5877c1d5497c8646d8bbb350a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="help-link"
+            >
+              <div className="help-icon training-icon-empower">
+                <FileText size={16} />
+              </div>
+              <div>
+                <div style={{ fontSize: "14px", fontWeight: "600" }}>
+                  Empower
+                </div>
+                <div style={{ fontSize: "12px", color: "#64748B" }}></div>
+              </div>
+            </a>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+            <a
+              href="https://www.cloudskillsboost.google/paths/28/course_templates/1381"
               target="_blank"
               rel="noopener noreferrer"
               className="help-link"
