@@ -388,7 +388,7 @@ const Index = () => {
           url: "https://askted.ttec.com/dashboards/vj7wsduTcZSq2pVgiRb2GF?",
         },
         {
-          name: "Operational Absence Report 2.0 (WFM Explore)",
+          name: "Absence Report",
           url: "https://askted.ttec.com/dashboards/otfbGa9mYbzFSiDGI9FQ7I?",
         },
         {
