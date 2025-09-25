@@ -380,16 +380,16 @@ const Index = () => {
       ],
       WFM: [
         {
-          name: "Absenteeism Report",
-          url: "https://askted.ttec.com/dashboards/Ig2jnIi4kuq4VBZvZJZkmF?",
-        },
-        {
           name: "AWH - WFM",
           url: "https://askted.ttec.com/dashboards/tt3cDKWJQX4eM2ULKE4CpH?",
         },
         {
           name: "Occupancy Summary",
           url: "https://askted.ttec.com/dashboards/vj7wsduTcZSq2pVgiRb2GF?",
+        },
+        {
+          name: "Operational Absence Report 2.0 (WFM Explore)",
+          url: "https://askted.ttec.com/dashboards/otfbGa9mYbzFSiDGI9FQ7I?",
         },
         {
           name: "Operational Top Deck",
