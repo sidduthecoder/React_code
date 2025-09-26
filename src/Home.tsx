@@ -380,6 +380,10 @@ const Index = () => {
       ],
       WFM: [
         {
+          name: "Absence Report",
+          url: "https://askted.ttec.com/dashboards/otfbGa9mYbzFSiDGI9FQ7I?",
+        },
+        {
           name: "AWH - WFM",
           url: "https://askted.ttec.com/dashboards/tt3cDKWJQX4eM2ULKE4CpH?",
         },
@@ -387,10 +391,7 @@ const Index = () => {
           name: "Occupancy Summary",
           url: "https://askted.ttec.com/dashboards/vj7wsduTcZSq2pVgiRb2GF?",
         },
-        {
-          name: "Absence Report",
-          url: "https://askted.ttec.com/dashboards/otfbGa9mYbzFSiDGI9FQ7I?",
-        },
+
         {
           name: "Operational Top Deck",
           url: "https://askted.ttec.com/dashboards/1HPc0kDIj00CyouupayeSW?",
